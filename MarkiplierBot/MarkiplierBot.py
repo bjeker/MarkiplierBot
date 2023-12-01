@@ -61,13 +61,6 @@ async def markiplier(ctx):
 
 #moderation commands
 
-#timeout deansdale
-@bot.command()
-async def dome(ctx):
-    deansdale = ctx.guild.get_member(800508361719939113)
-    await deansdale.timeout_for(datetime.timedelta(seconds = 40), reason= "being a fuckass")
-    print("deansdale has been ejected for being sus!")
-
 #run the bot
 print("markiplier is connecting...")
 bot.run(TOKEN)
